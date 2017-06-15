@@ -147,11 +147,11 @@ register_css <<CSS
 
   button.btn-social.oauth2_basic:hover {
     background: #0f39d0;
-    background-image: -webkit-linear-gradient(top, #0f39d0, #0e2d96);
-    background-image: -moz-linear-gradient(top, #0f39d0, #0e2d96);
-    background-image: -ms-linear-gradient(top, #0f39d0, #0e2d96);
-    background-image: -o-linear-gradient(top, #0f39d0, #0e2d96);
-    background-image: linear-gradient(to bottom, #0f39d0, #0e2d96);
+    background-image: -webkit-linear-gradient(top, #08c, #06c);
+    background-image: -moz-linear-gradient(top, #08c, #06c);
+    background-image: -ms-linear-gradient(top, #08c, #06c);
+    background-image: -o-linear-gradient(top, #08c, #06c);
+    background-image: linear-gradient(to bottom, #08c, #06c);
     text-decoration: none;
   }
 
