@@ -127,13 +127,32 @@ auth_provider title_setting: "oauth2_button_title",
 register_css <<CSS
 
   button.btn-social.oauth2_basic {
-    background-color: #f3ad0c;
-    box-shadow: 5px 7px 5px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.19);
-    height: 38px;
+    background: #f3ae0c;
+    background-image: -webkit-linear-gradient(top, #f3ae0c, #ba7911);
+    background-image: -moz-linear-gradient(top, #f3ae0c, #ba7911);
+    background-image: -ms-linear-gradient(top, #f3ae0c, #ba7911);
+    background-image: -o-linear-gradient(top, #f3ae0c, #ba7911);
+    background-image: linear-gradient(to bottom, #f3ae0c, #f3a00c);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 4px 7px #666666;
+    -moz-box-shadow: 4px 4px 7px #666666;
+    box-shadow: 4px 4px 7px #666666;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
   }
 
   button.btn-social.oauth2_basic:hover {
-    background-color: #08c;
+    background: #0f39d0;
+    background-image: -webkit-linear-gradient(top, #0f39d0, #0e2d96);
+    background-image: -moz-linear-gradient(top, #0f39d0, #0e2d96);
+    background-image: -ms-linear-gradient(top, #0f39d0, #0e2d96);
+    background-image: -o-linear-gradient(top, #0f39d0, #0e2d96);
+    background-image: linear-gradient(to bottom, #0f39d0, #0e2d96);
+    text-decoration: none;
   }
 
 CSS
