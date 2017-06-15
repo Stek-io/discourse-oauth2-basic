@@ -127,7 +127,13 @@ auth_provider title_setting: "oauth2_button_title",
 register_css <<CSS
 
   button.btn-social.oauth2_basic {
-    background-color: #6d6d6d;
+    background-color: #f3ad0c;
+    box-shadow: 5px 7px 5px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.19);
+    height: 38px;
+  }
+
+  button.btn-social.oauth2_basic:hover {
+    background-color: #08c;
   }
 
 CSS
